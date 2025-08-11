@@ -1,16 +1,24 @@
-# portfolio
+# 🌟 Responsive Portfolio App
 
-A new Flutter project.
+I built a **responsive Flutter portfolio** using **GetX** ⚡ with **custom animated routing** 🎬 for smooth navigation.  
+The modern UI 🎨 adapts to all screen sizes 📱💻 using **MediaQuery** and **LayoutBuilder** 🛠 for dynamic layouts, and it features engaging animations ✨ throughout.  
+It showcases my **skills**, **projects**, and **contact details** in a clean, professional, and visually appealing layout.
 
-## Getting Started
+## 🚀 Features
+- 📱 **Responsive Design** – Built using **MediaQuery** and **LayoutBuilder** for adaptive UI on mobile, tablet, and desktop.
+- ⚡ **GetX State Management** – Efficient and simple navigation.
+- 🎬 **Custom Animated Routing** – Smooth transitions between pages.
+- ✨ **Interactive Animations** – Engaging UI animations throughout.
+- 🎨 **Modern UI** – Professional and clean design.
 
-This project is a starting point for a Flutter application.
+## 🖼 Screenshots
+| 🏠 Home Screen | 📂 Projects Screen | 📧 Contact Screen |
+|---------------|------------------|------------------|
+| ![Home](screenshots/home.png) | ![Projects](screenshots/projects.png) | ![Contact](screenshots/about.png) |
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠 Tech Stack
+- 🐦 Flutter  
+- ⚡ GetX  
+- 💙 Dart  
+- 📏 MediaQuery  
+- 🖼 LayoutBuilder 
