@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:portfolio/Components/project_container.dart';
 import 'package:portfolio/Controller/controller.dart';
 
@@ -51,7 +50,7 @@ class ProjectScreen extends StatelessWidget {
                       padding: const EdgeInsets.only(
                         left: 8.0,
                         right: 8,
-                        top: 15,
+                        top: 20,
                         bottom: 10
                       ),
                       child: ProjectContainer(
@@ -92,12 +91,9 @@ class ProjectScreen extends StatelessWidget {
                                       SizedBox(width: 6),
                                       Text(
                                         "Video",
-                                        style: GoogleFonts.poppins(
-                                          color: Colors.purpleAccent,
-                                          fontWeight: FontWeight.w500,
-                                          fontSize: 10,
+                                        style:smallText(color: Colors.purpleAccent)
                                         ),
-                                      ),
+
                                     ],
                                   ),
                                 )

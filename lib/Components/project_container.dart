@@ -22,7 +22,6 @@ class ProjectContainer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    double h = MediaQuery.of(context).size.height;
     double w = MediaQuery.of(context).size.width;
 
     return InkWell(
@@ -85,7 +84,7 @@ class ProjectContainer extends StatelessWidget {
                         height: 20
                       ),
                       SizedBox(width: 3,),
-                      Text("Github", style: smallText(size: 12)),
+                      Text("Github", style: smallText()),
                     ],
                   ),
 

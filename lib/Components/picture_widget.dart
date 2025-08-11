@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 class PictureWidget extends StatelessWidget {
-  final double? height;
-  final double? width;
+  final double height;
+  final double width;
   final BoxFit boxFit;
 
   const PictureWidget({super.key,required this.height,required this.width,required this.boxFit});

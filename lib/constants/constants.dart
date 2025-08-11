@@ -12,7 +12,7 @@ TextStyle heading({size=50}) {
   );
 }
 
-TextStyle heading2({size=21}) {
+TextStyle heading2({size=24}) {
 
   return GoogleFonts.poppins(
     color: Colors.white,
@@ -21,9 +21,9 @@ TextStyle heading2({size=21}) {
   );
 }
 
-TextStyle smallText({size=12}) {
+TextStyle smallText({size=12,color= Colors.white}) {
 
-  return GoogleFonts.poppins(color: Colors.white, fontSize: size);
+  return GoogleFonts.poppins(color: color, fontSize: size);
 }
 
 TextStyle greyText({size=13}) {
