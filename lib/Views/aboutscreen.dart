@@ -59,7 +59,7 @@ Widget webLayout_AboutScreen(context) {
 
           BirdBox(
             borderRadius: w * 0.02,
-            height: h * 0.63,
+            height: h * 0.67,
             width: w * 0.27,
             child: Padding(
               padding: EdgeInsets.all(w * 0.01),
