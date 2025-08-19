@@ -18,7 +18,7 @@ class HomeScreen extends StatelessWidget {
       backgroundColor: background_color,
       body: LayoutBuilder(
         builder: (context, constraints) {
-          if (constraints.maxWidth <= 700) {
+          if (constraints.maxWidth <= 900) {
             return MobileLayoutHomeScreen();
           } else {
             return WebLayoutHomeScreen();

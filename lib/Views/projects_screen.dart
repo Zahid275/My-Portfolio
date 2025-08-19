@@ -34,26 +34,22 @@ class ProjectScreen extends StatelessWidget {
           Text("Latest Projects", style:isMobile ? heading(size: 35):heading(size: 45)),
           Expanded(
             child: Padding(
-              padding: const EdgeInsets.only(top: 10.0, left: 20, right: 20),
+              padding: const EdgeInsets.only(top: 10.0, left: 20, right: 20,),
               child: GridView.builder(
                 itemCount: controller.projects.length,
                 gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
                   maxCrossAxisExtent: width,
                   mainAxisExtent: height,
                   childAspectRatio: width / height,
-                  crossAxisSpacing: 10,
-                  mainAxisSpacing: 10,
+                  crossAxisSpacing: 30,
+                  mainAxisSpacing: 30,
                 ),
                 itemBuilder: (context, index) {
                   return Obx(() {
-                    return Padding(
-                      padding: const EdgeInsets.only(
-                        left: 8.0,
-                        right: 8,
-                        top: 20,
-                        bottom: 10
-                      ),
-                      child: ProjectContainer(
+                    return
+
+
+                      ProjectContainer(
                         onHover: (isHovering) {
                           controller.projects[index]["isHovered"].value =
                               isHovering;
@@ -98,7 +94,7 @@ class ProjectScreen extends StatelessWidget {
                                   ),
                                 )
                                 : SizedBox(),
-                      ),
+
                     );
                   });
                 },

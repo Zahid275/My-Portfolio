@@ -23,12 +23,13 @@ class ProjectContainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double w = MediaQuery.of(context).size.width;
+    double h= MediaQuery.of(context).size.height;
 
     return InkWell(
       onHover: onHover,
       onTap: onTap,
       child: Container(
-        margin: EdgeInsets.only(top: 4),
+        margin: EdgeInsets.only(top: h*0.02),
         padding: EdgeInsets.all(3),
         alignment: Alignment.center,
 
@@ -65,11 +66,11 @@ class ProjectContainer extends StatelessWidget {
             mainAxisSize: MainAxisSize.max,
             children: [
               Text(title, style: heading2()),
-              SizedBox(height: 0.01,),
+              SizedBox(height: 10,),
               Text(
                 style: greyText(),
                 description,
-                maxLines: w>600 ? 5:4,
+                maxLines: 4,
                 overflow: TextOverflow.ellipsis,
               ),
               Expanded(child: SizedBox()),

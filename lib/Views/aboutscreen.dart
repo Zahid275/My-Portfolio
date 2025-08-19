@@ -16,7 +16,7 @@ class AboutScreen extends StatelessWidget {
       body:
       LayoutBuilder(
         builder: (context, constraints) {
-          if (constraints.maxWidth <= 700) {
+          if (constraints.maxWidth <= 900) {
             return mobileLayout_aboutScreen(context);
           } else {
             return webLayout_AboutScreen(context);
