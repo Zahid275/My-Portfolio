@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class BirdBox extends StatelessWidget {
+class GradientBox extends StatelessWidget {
   double borderRadius;
   double? height;
   double width;
   Widget? child;
 
 
-   BirdBox({super.key, required this.width, this.height,required this.borderRadius, this.child});
+   GradientBox({super.key, required this.width, this.height,required this.borderRadius, this.child});
 
   @override
   Widget build(BuildContext context) {
