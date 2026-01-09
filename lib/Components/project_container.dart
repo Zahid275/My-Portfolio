@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:portfolio/constants/constants.dart';
 
 class ProjectContainer extends StatelessWidget {
-  void Function()? onTap;
-  void Function(bool)? onHover;
-  double blurRadius;
-  String title;
-  Widget playBtn;
-  String description;
+  final void Function()? onTap;
+  final void Function(bool)? onHover;
+  final double blurRadius;
+  final String title;
+  final Widget playBtn;
+  final String description;
 
-  ProjectContainer({super.key,
+  const ProjectContainer({super.key,
     required this.playBtn,
     required this.title,
     required this.description,
@@ -73,7 +73,7 @@ class ProjectContainer extends StatelessWidget {
                 maxLines: 4,
                 overflow: TextOverflow.ellipsis,
               ),
-              Expanded(child: SizedBox()),
+              SizedBox(height: 50,),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [

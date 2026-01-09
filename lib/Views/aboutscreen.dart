@@ -59,7 +59,6 @@ Widget webLayout_AboutScreen(context) {
 
           BirdBox(
             borderRadius: w * 0.02,
-            height: h * 0.67,
             width: w * 0.27,
             child: Padding(
               padding: EdgeInsets.all(w * 0.01),
@@ -77,8 +76,8 @@ Widget webLayout_AboutScreen(context) {
                   SkillBar(skill: "🌐 REST APIs", percentage: 0.90),
                   SkillBar(skill: "⚙️ GetX", percentage: 0.85),
                   SkillBar(skill: "📦 Provider", percentage: 0.77),
-                  SkillBar(skill: "🧱Clean Architecture", percentage: 0.80),
-                  Expanded(child: SizedBox()),
+                  SkillBar(skill: "🧱 Clean Architecture", percentage: 0.80),
+                  SizedBox(height: h*0.025,),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.end,
                     children: [
@@ -161,10 +160,14 @@ Widget mobileLayout_aboutScreen(context) {
               SizedBox(height: h*0.022,),
               Text("Zahid Rasheed", style: heading2(size: 26)),
               Text("Flutter Developer", style: greyText2()),
-              // SizedBox(height: h*0.01,),
-              // Text("Software Engineering student skilled in\n Flutter,buildingefficient and high-performing\n    mobile applications.", style: greyText2(size: 16)),
-              // SizedBox(height: h*0.01,),
-              // Text("🌍 Karachi | 📞 +92-3202211840 | ✉️ zahidraasheed287@gmail.com", style: greyText2(size: 13)),
+              SizedBox(height: h*0.01,),
+              Text("Software Engineering student", style: greyText2(size: 16)),
+
+              SizedBox(height: h*0.01,),
+              Text("🌍 Karachi | 📞 +92-3202211840 ", style: greyText2(size: 13)),
+              SizedBox(height: h*0.01,),
+
+              Text("✉️ zahidraasheed287@gmail.com", style: greyText2(size: 13)),
 
               SizedBox(height: h*0.05),
 
